@@ -1,0 +1,141 @@
+#cards-div{
+
+  	width:100%;
+}
+
+#card-div{
+	color:#fff;
+	font-family:  'Nato Sans JP', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: right;
+  	width:100%;
+  	padding-left: 10%;
+  	padding-right: 7%;
+}
+  	
+
+#card-div h2{
+	font-size: 550%;
+	letter-spacing: 0px;
+	font-weight: bolder;
+	padding-left: 5%;
+}
+
+
+
+
+.card-paint{
+	background-image: url("http://fruitsinicecream.com/wp-content/themes/fic/img/assets/brush.png");
+	background-position: center;
+  	background-size: contain; 
+  	background-repeat: no-repeat;
+  	height: 5vh;
+  	width:30%;
+  	text-decoration: none;
+  	color: #fff;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	font-size: 80%;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#card-div h2{
+		font-size: 400%;
+	}
+
+	.card-paint{
+	  	height: 10vh;
+	  	width: 40%;
+	}
+	
+		
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	#card-div h2{
+		font-size: 300%;
+	}
+
+	.card-paint{
+	  	height: 10vh;
+	  	width: 40%;
+	}
+	
+
+}
+
+@media only screen and (min-width: 319px) and (max-width: 960px) {
+	#card-div h2{
+		font-size: 300%;
+	}
+
+	.card-paint{
+	  	height: 10vh;
+	  	width: 55%;
+	}
+
+}
+
+
+/*iPhone 8*/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+  	#card-div h2{
+		font-size: 300%;
+	}
+
+	.card-paint{
+	  	height: 10vh;
+	  	width: 55%;
+	}
+
+  	
+  	
+ 
+}
+
+
+/*iPhone XR*/
+@media only  screen 
+    and (min-device-width: 414px) 
+    and (min-device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 2),
+    and (   min--moz-device-pixel-ratio: 2),
+    and (     -o-min-device-pixel-ratio: 2/1),
+    and (        min-device-pixel-ratio: 2),
+    and (                min-resolution: 192dpi),
+    and (                min-resolution: 2dppx) { 
+
+    #card-div h2{
+		font-size: 300%;
+	}
+
+	.card-paint{
+	  	height: 10vh;
+	  	width: 55%;
+	}
+
+ 
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+

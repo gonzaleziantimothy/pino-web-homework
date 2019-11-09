@@ -1,0 +1,43 @@
+#flavorsHeader-div{
+	background-image: url("http://fruitsinicecream.com/wp-content/uploads/2019/03/Flavor.jpg");
+	background-position: center;
+  	background-size: cover; 
+  	background-repeat: no-repeat;
+  	height:84vh;
+  	text-align: center;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+#flavorsHeader-div h2{
+	font-family: 'Nato Sans JP', sans-serif;
+	font-weight: bolder;
+	color: #fff;
+	font-size: 350%;
+}
+
+.flavorsHeader-nav{
+	width: 100%;
+	background-color: rgb(255, 243, 229);
+	height: 20vh;
+}
+
+.flavors-nav-links{
+	font-size: 100%;
+	color: rgb(255, 148, 0);
+}
+
+.flavors-nav-links:hover{
+	text-decoration: none;
+	color: rgb(255, 148, 0);
+}
+
+.flavorsHeader-nav div:hover{
+	border-bottom: 2px solid rgb(255, 114, 17);
+}
+.flavors-nav-links-div{
+	font-size: 10px;
+	text-align: center;
+}
+

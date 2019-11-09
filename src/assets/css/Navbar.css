@@ -1,0 +1,88 @@
+#nav{
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+.logo{
+  	height: 80px;
+  	width: 80px;
+}
+
+#wheretobuyBtn-div button{
+	border-width: 2px;
+	border-color: #fff;
+	border-radius: 0px;
+	color: #fff;
+}
+
+.search-icon{
+	color: #fff;
+}
+
+#nav>#navbarSupportedContent #navbarlist .nav-item .nav-link{
+	color: #fff;
+}
+
+#nav>#navbarSupportedContent #navbarlist .nav-item .nav-link:hover{
+	border-bottom: 2px solid rgb(255, 114, 17);
+	text-decoration: none;
+	color: rgb(255, 114, 17);
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#wheretobuyBtn-div{
+		display: none;
+	}
+	
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+	#wheretobuyBtn-div{
+		display: none;
+	}
+	
+
+}
+
+
+/*iPhone 8*/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  	
+  	#wheretobuyBtn-div{
+		display: none;
+	}
+}
+
+
+/*iPhone XR*/
+@media only  screen 
+    and (min-device-width: 414px) 
+    and (min-device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 2),
+    and (   min--moz-device-pixel-ratio: 2),
+    and (     -o-min-device-pixel-ratio: 2/1),
+    and (        min-device-pixel-ratio: 2),
+    and (                min-resolution: 192dpi),
+    and (                min-resolution: 2dppx) { 
+
+    #wheretobuyBtn-div{
+		display: none;
+	}
+ 
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}

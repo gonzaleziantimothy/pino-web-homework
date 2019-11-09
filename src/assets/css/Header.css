@@ -1,0 +1,169 @@
+.#carousel-header{
+	height:100vh;
+	padding: 0;
+	margin: 0;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.flavor{
+	background-image: url("http://fruitsinicecream.com/wp-content/uploads/2019/03/Flavor.jpg");
+	background-position: center;
+  	background-size: cover; 
+  	background-repeat: no-repeat;
+  	height:100vh;
+
+}
+
+.learn{
+	background-image: url("http://fruitsinicecream.com/wp-content/uploads/2019/03/FC-Ice-Cream.jpg");
+	background-position: center;
+  	background-size: cover; 
+  	background-repeat: no-repeat;
+  	height:100vh;
+
+}
+
+.vegan{
+	background-image: url("http://fruitsinicecream.com/wp-content/uploads/2019/10/FIC-Vegan-Line-Web.jpg");
+	background-position: center;
+  	background-size: cover; 
+  	background-repeat: no-repeat;
+  	height:100vh;
+}
+
+.carousel-content{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  	align-items: center;
+  	color: #fff;
+}
+
+.carousel-content h1{
+	font-family: 'Leckerli One', cursive;
+	font-size: 600%;
+}
+
+.carousel-content h4{
+	font-family: 'Nato Sans JP', sans-serif;
+	font-size: 150%;
+}
+
+.bg-paint{
+	background-image: url("http://fruitsinicecream.com/wp-content/themes/fic/img/assets/brush.png");
+	background-position: center;
+  	background-size: contain; 
+  	background-repeat: no-repeat;
+  	height: 7vh;
+  	width: 15%;
+  	text-decoration: none;
+  	color: #fff;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.carousel-content h1{
+		font-size: 300%;
+	}
+
+	.carousel-content h4{
+		font-size: 50%;
+	}
+
+	.bg-paint{
+	  	height: 10vh;
+	  	width: 30%;
+	  	font-size: 20%;
+	}
+	
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	.carousel-content h1{
+		font-size: 400%;
+	}
+
+	.carousel-content h4{
+		font-size: 70%;
+	}
+
+	.bg-paint{
+	  	height: 10vh;
+	  	width: 30%;
+	  	font-size: 60%;
+	}
+	
+
+}
+
+
+/*iPhone 8*/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+  	.carousel-content h1{
+		font-size: 400%;
+	}
+
+	.carousel-content h4{
+		font-size: 70%;
+	}
+
+	.bg-paint{
+	  	height: 10vh;
+	  	width: 30%;
+	  	font-size: 60%;
+	}
+  	
+ 
+}
+
+
+/*iPhone XR*/
+@media only  screen 
+    and (min-device-width: 414px) 
+    and (min-device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 2),
+    and (   min--moz-device-pixel-ratio: 2),
+    and (     -o-min-device-pixel-ratio: 2/1),
+    and (        min-device-pixel-ratio: 2),
+    and (                min-resolution: 192dpi),
+    and (                min-resolution: 2dppx) { 
+
+  .carousel-content h1{
+		font-size: 670%;
+	}
+
+	.carousel-content h4{
+		font-size: 150%;
+	}
+
+	.bg-paint{
+	  	height: 10vh;
+	  	width: 30%;
+	  	font-size: 100%;
+	}
+ 
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+

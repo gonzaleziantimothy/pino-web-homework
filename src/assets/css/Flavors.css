@@ -1,0 +1,31 @@
+
+.flavors-display-div{
+  background-color: rgb(255, 243, 229);
+  display: flex;
+  justify-content: center;
+}
+#flavorcard-div{
+  color: #fff;
+  font-family:  'Nato Sans JP', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+  padding:20px;
+}
+    
+
+#flavorcard-div h2{
+  font-size: 100%;
+  font-weight: bold;
+}
+
+#flavorcard-div p{
+  font-size: 80%;
+ 
+}
+
+.flavors-pagination{
+  background-color: rgb(255, 243, 229);
+  color: rgb(255, 148, 0);
+}

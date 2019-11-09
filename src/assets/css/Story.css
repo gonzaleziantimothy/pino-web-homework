@@ -1,0 +1,171 @@
+#story-div{
+	height:80vh;
+	border-radius: 0px;
+	background-color: rgb(255, 243, 229);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  	align-items: center;
+  	padding-left: 20%;
+  	padding-right: 20%;
+  	text-align: center;
+  	padding-bottom: 0;
+  	margin-bottom: 0;
+}
+
+#story-div img{
+	height: 8vh;
+	width:auto;
+}
+
+#story-div h2{
+	padding-top: 4vh;
+	font-family: 'Leckerli One', cursive;
+	font-size: 500%;
+	color: rgb(255, 114, 17);
+}
+
+#story-div p{
+	padding-top: 2vh;
+	font-family: 'Nato Sans JP', sans-serif;
+	font-size: 90%;
+	color: #333333;
+}
+#story-div a{
+	font-size: 80%;
+}
+
+#story-paint{
+	background-image: url("http://fruitsinicecream.com/wp-content/themes/fic/img/assets/brush.png");
+	background-position: center;
+  	background-size: contain; 
+  	background-repeat: no-repeat;
+  	height: 5vh;
+  	width: 100%;
+  	text-decoration: none;
+  	color: #fff;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#story-div img{
+		padding-top: 1vh;
+		height: 7vh;
+		width:auto;
+	}
+
+	#story-div h2{
+		padding-top: 2vh;
+		font-size: 200%;
+	}
+
+	#story-div p{
+		padding-top: 2vh;
+		font-size: 70%;
+	}
+	#story-div a{
+		font-size: 50%;
+	}
+
+	
+		
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	#story-div img{
+		padding-top: 1vh;
+		height: 7vh;
+		width:auto;
+	}
+
+	#story-div h2{
+		padding-top: 2vh;
+		font-size: 300%;
+	}
+
+	#story-div p{
+		padding-top: 2vh;
+		font-size: 100%;
+	}
+	#story-div a{
+		font-size: 100%;
+	}
+
+}
+
+
+/*iPhone 8*/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+  	#story-div img{
+		padding-top: 1vh;
+		height: 7vh;
+		width:auto;
+	}
+
+	#story-div h2{
+		padding-top: 2vh;
+		font-size: 300%;
+	}
+
+	#story-div p{
+		padding-top: 2vh;
+		font-size: 100%;
+	}
+	#story-div a{
+		font-size: 100%;
+	}
+  	
+ 
+}
+
+
+/*iPhone XR*/
+@media only  screen 
+    and (min-device-width: 414px) 
+    and (min-device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 2),
+    and (   min--moz-device-pixel-ratio: 2),
+    and (     -o-min-device-pixel-ratio: 2/1),
+    and (        min-device-pixel-ratio: 2),
+    and (                min-resolution: 192dpi),
+    and (                min-resolution: 2dppx) { 
+
+  #story-div img{
+		padding-top: 1vh;
+		height: 7vh;
+		width:auto;
+	}
+
+	#story-div h2{
+		padding-top: 2vh;
+		font-size: 200%;
+	}
+
+	#story-div p{
+		padding-top: 2vh;
+		font-size: 70%;
+	}
+	#story-div a{
+		font-size: 50%;
+	}
+ 
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+

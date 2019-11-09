@@ -1,0 +1,100 @@
+#footer-div{
+	background-color: rgb(255, 148, 0);
+	height: 26vh;
+	width: 100%;
+}
+
+.icon-div{
+	background-color: rgb(255,181,0);
+	height: 4vh;
+	width: 4vh;
+	border-radius: 100%;
+	color:#fff;
+	margin: 8px;
+}
+
+#faqBtn-div button{
+	font-size: 90%;
+	width:40%;
+	padding: 2px;
+	border-width: 3px;
+	border-color: #fff;
+	border-radius: 0px;
+	color: #fff;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#footer-div{
+	background-color: rgb(255, 148, 0);
+	height: 50vh;
+	width: 100%;
+	text-align: center;
+	}
+	
+}
+@media only screen and (min-width: 319px) and (max-width: 960px) {
+		#footer-div{
+	background-color: rgb(255, 148, 0);
+	height: 50vh;
+	width: 100%;
+text-align: center;
+	}
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	#footer-div{
+	background-color: rgb(255, 148, 0);
+	height: 55vh;
+	width: 100%;
+	}
+
+}
+
+
+/*iPhone 8*/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+  	#footer-div{
+	background-color: rgb(255, 148, 0);
+	height: 55vh;
+	width: 100%;
+	}
+ 
+}
+
+
+/*iPhone XR*/
+@media only  screen 
+    and (min-device-width: 414px) 
+    and (min-device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 2),
+    and (   min--moz-device-pixel-ratio: 2),
+    and (     -o-min-device-pixel-ratio: 2/1),
+    and (        min-device-pixel-ratio: 2),
+    and (                min-resolution: 192dpi),
+    and (                min-resolution: 2dppx) { 
+
+  	#footer-div{
+	background-color: rgb(255, 148, 0);
+	height: 50vh;
+	width: 100%;
+	}
+ 
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
